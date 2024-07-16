@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Super Mario Jump</title>
+    <link rel="stylesheet" href="e.css">
+    <script src="mario.js" defer></script>
+    <link rel="icon" href="mario-icon-png-27.png">
+</head>
+<body>
+    <div class="game">
+    
+        <img class="mario" src="imagem/mario.gif"  src="imagem/game-over.png" alt="Mario" > 
+        <img class="pipe" src="imagem/pipe.png" alt="Cano">
+        <img class="clouds" src="imagem/clouds.png" alt="Nuvem">
+        <img class="gumba" src="imagem/R.gif">
+        <img class="ball"   src="imagem/png-clipart-super-mario-bros-bill-bala-super-mario-world-golden-note-heroes-super-mario-bros.png">
+        <img class="koopa"  src="Koopa_Troopa.webp">
+        <img class="king" src="imagem/kindpng_3018049.png">
+        <img class="mushroom" src="imagem/R.png">
+    
+        
+        
+        <button class="start" onclick="startGame()">iniciar</button>
+
+
+    </div>
+        <span id="pontuacao">Pontuação: 0
+            <img src="OIP.jpg"   width="300" height="300">
+        </span>
+
+    <div class="game-over" style="display: none;">
+        <h1>Game Over :(</h1>
+        <button onclick="restartGame()">Reiniciar</button>
+    </div>
+</body>
+</html>
+
