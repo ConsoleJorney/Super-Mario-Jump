@@ -16,5 +16,5 @@ Jogo 2D desenvolvido em JavaScript inspirado em jogos de plataforma clássicos.
 ## Objetivo
 Praticar conceitos de desenvolvimento de jogos, incluindo lógica de movimento, colisão e interação.
 
-## 👨‍💻 Autor
+## Autor
 Elias Miguel Abbate Leão
